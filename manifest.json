@@ -1,0 +1,14 @@
+{
+  "name": "Remote Banner",
+  "description": "Add an important message banner to a specific page.",
+  "version": "2.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bostonsikhsangat.com/hukamnama/"
+      ],
+      "js": ["inject/content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
